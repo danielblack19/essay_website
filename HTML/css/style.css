@@ -1,0 +1,206 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/*------- Nav -------*/
+
+nav {
+    position: fixed;
+    align-items: center;
+    min-height: 8vh;
+    font-family: 'Roboto Mono', monospace;
+    background-color: #3eb1f3;
+    width: 100%;
+    padding-top: 1em;
+    padding-bottom: 0.7em;
+    top: 0;
+    left: 0;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.logo {
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    letter-spacing: 2.25px;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    font-size: 1em;
+    width: 100%;
+    position: center;
+    text-align: center;
+}
+
+
+ul a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: 2em;
+    text-emphasis: none;
+}
+
+.navigation li {
+    list-style: none;
+    width: 80%;
+    border-right : 2px solid rgba(0, 0, 0, 0.856);
+   
+}
+
+/*--------STYLING LINKS-----*/
+a:hover {
+    color: #ffffff; 
+    text-shadow : 0px 0px 10px rgb(255, 255, 255);
+    border-bottom : 1.5px solid rgb(255, 255, 255);
+    
+}
+
+
+
+/*---- Body -----*/
+
+body {
+    padding-top: 3em;
+    background: rgba(129, 129, 129, 0.295);
+    margin: auto;
+    width: 48%;
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+}
+
+h1 {
+    font-size: 1.7em;
+    padding-top: 0.5en;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    border-top: 1.5px solid rgb(0, 0, 0);
+    border-bottom: 1.5px solid rgb(0, 0, 0);
+   padding-top: 0.07em;
+   padding-bottom: 0.07em;
+}
+
+.H2content1 {
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    
+}
+
+
+.cernpicsection {
+    float: left;
+    margin-left: -0.05px;
+    margin-top: -10px;
+}
+
+.computerpicsection {
+    float: right;
+    margin-right: -10px;
+    margin-top: 15px;
+
+}
+
+.figure1 {
+    font-size: 0.7em;
+    color: #05649b;
+}
+
+.figure2 {
+    font-size: 0.7em;
+    color: #05649b;
+}
+
+.figure2text {
+    margin-top: -2px;
+}
+
+.figure3 {
+    font-size: 0.7em;
+    color: #05649b;
+}
+
+.figure4 {
+    font-size: 0.7em;
+    color: #05649b;
+}
+
+.text1 {
+    text-align: left;
+}
+
+.text2 {
+    text-align: right;
+    margin-top: 20px;
+}
+
+
+.bibliography {
+    background-color: #0099ff;
+   
+}
+
+.top10list ul {
+    margin: 0;
+    padding: 0;
+}
+
+.top10list {
+    margin: 15 15px;
+    padding: 0;
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+}
+
+.changespictures li {
+    list-style: none;
+}
+
+/*---- Footer -----*/
+
+footer {
+    color: white;
+    padding-top: 2em;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    width: 100%;
+    padding-bottom: 0.5em;
+    position: bottom;
+
+}
+
+.socialmedia ul {
+    padding-top: 1em;
+    border-right: none;
+}
+
+.topbutton ul {
+    margin: 0;
+    padding: 0;
+}
+.topbutton li {
+    margin: 0 15px;
+    padding: 0;
+    list-style: none;
+    display: inline-block;
+}
+
+.topbutton {
+    position: fixed;
+    bottom: -10px;
+    right: -60px;
+    width: 200px;
+}
