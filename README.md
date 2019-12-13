@@ -1,3 +1,3 @@
 # essay_website
 
-https://danielblack19.github.io/essay_website/TimBerners-Lee.html
+https://danielblack19.github.io/essay_website/HTML/TimBerners-Lee.html
