@@ -53,7 +53,7 @@ ul a {
 
 .navigation li {
     list-style: none;
-    width: 80%;
+    width: 40%;
     border-right : 2px solid rgba(0, 0, 0, 0.856);
    
 }
@@ -76,7 +76,7 @@ body {
     margin: auto;
     width: 48%;
     font-family: 'Roboto Mono', monospace;
-    text-align: center;
+    text-align: normal;
 }
 
 h1 {
@@ -101,7 +101,7 @@ h2 {
 
 
 .cernpicsection {
-    float: left;
+    text-align: center;
     margin-left: -0.05px;
     margin-top: -10px;
 }
@@ -113,9 +113,17 @@ h2 {
 
 }
 
+.proposalpic {
+    text-align: center;
+}
+
+.timbernersleepic {
+    text-align: center;
+}
 .figure1 {
     font-size: 0.7em;
     color: #05649b;
+    text-align: center;
 }
 
 .figure2 {
@@ -125,6 +133,7 @@ h2 {
 
 .figure2text {
     margin-top: -2px;
+    text-align: center;
 }
 
 .figure3 {
@@ -135,6 +144,7 @@ h2 {
 .figure4 {
     font-size: 0.7em;
     color: #05649b;
+    text-align: center;
 }
 
 .text1 {
@@ -142,10 +152,14 @@ h2 {
 }
 
 .text2 {
-    text-align: right;
+    text-align: left;
     margin-top: 20px;
+    padding-left: 0.2em;
 }
-
+ 
+.referencelist {
+    text-align: center;
+}
 
 .bibliography {
     background-color: #0099ff;
